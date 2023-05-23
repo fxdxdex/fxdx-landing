@@ -1,0 +1,78 @@
+.App-email-wrapper {
+  width: 38%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  position: relative;
+    z-index:1;
+    padding-top: 3rem;
+}
+.email-input {
+  /* background-color:transparent; */
+  background-color: rgba(255, 255, 255, 0.05);
+  display: inline-block;
+  width: 27rem;
+  padding: 1rem 1rem;
+  line-height: 140%;
+  color: #ffffff;
+  font-family: "SF";
+  font-size: 1rem;
+  border: none;
+  transition: all 0.25s ease-in-out;
+  border-radius: 10px;
+}
+.email-input:focus {
+  outline: none;
+  box-shadow: 2.5px 2.5px 0px rgba(0, 128, 0, 0.75);
+}
+.email-input:hover {
+  cursor: pointer;
+  /* opacity: 0.9; */
+  box-shadow: 2.5px 2.5px 0px rgba(0, 128, 0, 0.75);
+}
+.email-input::placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+.App-submit-btn {
+  width: 5rem;
+  font-family: "SF";
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.05);
+  opacity: 0.7;
+  color: #ffffff;
+  padding: 15px 10px;
+  line-height: 140%;
+  border-radius: 10px;
+  letter-spacing: 0.7px;
+  transition: all 0.25s ease-in-out;
+}
+.App-submit-btn:hover {
+  cursor: pointer;
+  /* opacity: 0.9; */
+  box-shadow: 2.5px 2.5px 0px rgba(0, 128, 0, 0.75);
+}
+
+@media screen and (max-width: 768px) {
+  .App-email-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    position: relative;
+    z-index:1;
+  }
+  .email-input {
+    width: 100%;
+  }
+  .App-submit-btn {
+    margin: 2rem;
+    width: 25%;
+    padding: .6rem .2rem;
+    line-height: 70%;
+    font-size: .5rem;
+  }
+}
