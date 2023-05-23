@@ -13,6 +13,7 @@ import axios from "axios";
 import Trading from "./components/Trading";
 import BuyAlgo from "./components/BuyAlgo";
 import Roadmap from "./components/Roadmap";
+import Email from "./components/Email";
 
 function App() {
   const [dailyVolume, setDailyVolume] = useState(0);
@@ -70,6 +71,7 @@ function App() {
     <div className="App">
       <Nav />
       <Hero />
+      <Email/>
       <BattleTested dailyCount={dailyCount} totalVolume={totalVolume} />
       <Derivatives />
       <Trading />
