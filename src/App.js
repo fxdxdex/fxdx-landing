@@ -73,10 +73,8 @@ function App() {
       <Hero />
       <Email/>
       <BattleTested dailyCount={dailyCount} totalVolume={totalVolume} />
-      <Derivatives />
       <Trading />
-      <Features />
-      <Roadmap />
+      <Features /> 
       <Investors />
       <Footer />
     </div>
