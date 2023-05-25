@@ -2,7 +2,7 @@ import "./App.css";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import BattleTested from "./components/BattleTested";
-import Derivatives from "./components/Derivatives";
+//import Derivatives from "./components/Derivatives";
 import Algo from "./components/Trading";
 import Features from "./components/Features";
 // import Exchange from "./components/Exchange";
@@ -12,7 +12,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Trading from "./components/Trading";
 import BuyAlgo from "./components/BuyAlgo";
-import Roadmap from "./components/Roadmap";
+//import Roadmap from "./components/Roadmap";
 import Email from "./components/Email";
 
 function App() {
