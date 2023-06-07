@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="hero-container">
       <div className="hero">
         <h2>
-         <span className="green-gradient"> 0-Trading Fee</span>
+         <br><span className="green-gradient"> 0-Trading Fee</span>
           <br></br> Perpetual Futures
           <br></br> Decentralized Exchange
         </h2>
