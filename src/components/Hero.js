@@ -5,11 +5,10 @@ const Hero = () => {
   return (
     <div className="hero-container">
       <div className="hero">
-        <h3 className="section-header">ABOUT FXDX EXCHANGE</h3>
         <h2>
-          Decentralised Infrastructure<br></br> for Perpetual Futures,
-          <br></br> with
-          <span className="green-gradient"> Limitless Liquidity</span>
+         <span className="green-gradient"> 0-Trading Fee</span><br></br>
+          <br></br> Perpetual Futures
+          <br></br> Decentralized Exchange
         </h2>
         <p className="section-paragraph">
           FXDX aims to build derivatives products by bringing together all the
