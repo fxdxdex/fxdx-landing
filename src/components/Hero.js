@@ -6,16 +6,10 @@ const Hero = () => {
     <div className="hero-container">
       <div className="hero">
         <h2>
-         <span className="green-gradient"> 0-Trading Fee</span><br></br>
+         <span className="green-gradient"> 0-Trading Fee</span>
           <br></br> Perpetual Futures
           <br></br> Decentralized Exchange
         </h2>
-        <p className="section-paragraph">
-          FXDX aims to build derivatives products by bringing together all the
-          liquidity sources across multiple blockchains into a single platform,
-          enabling unlimited liquidity and providing best trade execution at
-          fastest speed and lowest cost.
-        </p>
         <div className="hero-social hero-row">
           <a href="https://twitter.com/fxdxdex" target="_blank">
             <img src="/twitter.svg" height={55} width={55} />
