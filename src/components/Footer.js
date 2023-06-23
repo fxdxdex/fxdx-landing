@@ -17,6 +17,9 @@ const Footer = () => {
                         <li>
                             <a href="https://fxdxdocs.gitbook.io/fxdx-knowledge-base/" target="_blank">Docs</a>
                         </li>
+                         <li>
+                            <a href="mailto:team@fxdx.exchange" target="_blank">Email Us</a>
+                        </li>
                     </ul>
                 </div>
                 <div className="footer-nav">
