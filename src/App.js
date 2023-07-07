@@ -5,7 +5,6 @@ import {
   Route,
   BrowserRouter,
   Routes,
-
 } from "react-router-dom";
 import Redirect from "./components/Redirect";
 import MainApp from "./components/MainApp";
@@ -65,11 +64,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route
-          path="/buy"
-          exact
-          element={<Redirect />}
-        />
+        <Route path="/buy" exact element={<Redirect />} />
         <Route path="*" element={<MainApp />}></Route>
       </Routes>
     </BrowserRouter>
