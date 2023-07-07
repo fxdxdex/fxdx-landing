@@ -66,7 +66,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route
-          path="/liquidity"
+          path="/buy"
           exact
           element={<Redirect />}
         />
