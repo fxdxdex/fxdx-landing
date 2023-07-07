@@ -1,0 +1,11 @@
+.redirect-wrapper p{
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    margin: 0;
+   }
+   .redirect-wrapper{
+       width: 100%;
+       height: 100vh;
+       background-color: #000;
+   }
