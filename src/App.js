@@ -7,7 +7,7 @@ import {
   Routes,
 
 } from "react-router-dom";
-import Redirect from "./components/Redirect/Redirect";
+import Redirect from "./components/Redirect";
 import MainApp from "./components/MainApp";
 
 function App() {
