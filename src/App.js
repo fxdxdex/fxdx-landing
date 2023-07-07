@@ -77,4 +77,3 @@ function App() {
 }
 
 export default App;
-//http://localhost:3000/liquidity
