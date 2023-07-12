@@ -29,6 +29,9 @@ const Hero = () => {
           <a href="https://fxdxdex.medium.com/" target="_blank">
             <img src="/medium.svg" height={55} width={55} />
           </a>
+          <a href="https://fxdx.beehiiv.com/" target="_blank">
+            <img src="/Behiiv.svg" height={55} width={55} />
+          </a>
         </div>
       </div>
       <img className="purple-gradient" src="./purple.png" alt="" />
