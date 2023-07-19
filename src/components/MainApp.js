@@ -10,7 +10,7 @@ import Investors from "./Investors";
 import Footer from "./Footer";
 import { useState } from "react";
 import Trading from "./Trading";
-import Roadmap from "./Roadmap";
+// import Roadmap from "./Roadmap";
 import Email from "./Email";
 
 const MainApp = () => {
@@ -26,7 +26,7 @@ const MainApp = () => {
       <Derivatives />
       <Trading />
       <Features />
-      <Roadmap />
+      {/* <Roadmap /> */}
       <Investors />
       <Footer />
     </div>
